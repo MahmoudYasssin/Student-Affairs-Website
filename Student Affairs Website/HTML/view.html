@@ -1,0 +1,86 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../CSS/pagestyle.css">
+    <meta charset="windows-1252">
+    <title>View Students</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<div class="header">
+
+    <body class="hi">
+        <div class="header">
+            <img src="../IMG/B&A - Main Portfolio.jfif">
+            <h1 class="title">Student Affairs</h1>
+          </div>
+        <br></br>    
+            <a href="../HTML/home.html">Home</a>
+                <a href="../HTML/log in.html">Log in</a>
+                <a href="../HTML/add student.html">Add student</a>
+                <a href="../HTML/search.html">search student</a>
+                <a href="../HTML/view.html">View student</a>
+                <a href="../HTML/update.html">Update student</a>
+                <a href="../HTML/department.html">Assign Department</a>
+                <span style="cursor:pointer"></span><br></br>
+    
+     <!-- Main Data Table -->
+     <h2>students data</h2>
+     <div class="mainTable">
+        <table style="height: 25% ; width:75%;" id="table" ;border="1">
+         
+        <thead>
+            <tr style="font-size: larger;">
+                <th>Name</th>
+                <th>ID</th>
+                <th>Department</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>omar</td>
+                <td>2020251265</td>
+                <td>CS</td>
+                <td>active</td>
+            </tr>
+            <tr>
+                <td>ahmed</td>
+                <td>202051184</td>
+                <td>IT</td>
+                <td>inactive</td>
+            </tr>
+            <tr>
+                <td>ezz</td>
+                <td>20054184</td>
+                <td>DS</td>
+                <td>active</td>
+            </tr>
+            <tr>
+                <td>Aly</td>
+                <td>20200333</td>
+                <td>null</td>
+                <td>active</td>
+            </tr>
+        </tbody>
+    </table></div>
+</body>
+  <!--Update Button -->
+  <div class="updatebutton">
+    <button  onclick="editTableDisplay()">Update data</button>
+</div>
+
+<!-- Edit table -->
+<div class="editTable">
+    <div class="left">Name:</div><div class="right"><input type="text" name="Name" id="Name"></div><br>
+    <div class="left">ID:</div><div class="right"><input type="number" name="ID" id="ID"></div><br>
+    <div class="left">Department:</div><div class="right"><input type="text" name="Department" id="Department"></div><br>
+    <div class="left">Status:</div><div class="right"><input type="text"  name="status" id="status"></div><br>
+   
+    <button onclick="editRow()";  class="editRowBtn">Update</button><br><br>
+</div>    
+
+    <script src="../JS/view script.js"></script>
+</html>

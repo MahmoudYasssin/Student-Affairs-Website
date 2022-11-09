@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../CSS/all pages.css">
+        <title>Update Page</title>
+</head>
+</head>
+<body class="hi">
+    <div class="header">
+        <img src="../IMG/B&A - Main Portfolio.jfif">
+        <h1 class="title">Student Affairs</h1>
+      </div>
+
+<br></br>    
+  <a href="../HTML/home.html">Home</a>
+      <a href="../HTML/log in.html">Log in</a>
+      <a href="../HTML/add student.html">Add student</a>
+      <a href="../HTML/search.html">search student</a>
+      <a href="../HTML/view.html">View student</a>
+      <a href="../HTML/update.html">Update student</a>
+      <a href="../HTML/department.html">Assign Department</a>
+      <span style="cursor:pointer"></span><br></br>
+      <br><br>
+     <h1><i>Edit student data page<i></h1><br>
+
+     <form method="post" action="" novalidate target="'_blank">
+    
+        Name:<input type="text" >
+        <button onclick="confirmation()">delete</button><br><br>
+      
+        
+        ID:<input type="number" placeholder="ID"    required>
+        <button onclick="confirmation()">delete</button><br><br>
+        
+        data of birth:<input type="date" name="date of birth" min="1985-01-01" max="2017-01-01">
+        <button onclick="confirmation()">delete</button><br><br>
+        
+    
+        <label>gpa</lael>
+        <input type="number" min="0" max="4" step=".1" required>
+        <button onclick="confirmation()">delete</button><br><br>
+    
+
+    
+        <label for="gender">Gender</label>
+        <select name="gender">
+            <option value="none" selected>Gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">other</option>
+        </select><br><br>
+    
+        <label for="level">LeVel</lael>
+            <select id="level">
+                <option value=1>Level_1</option>
+                <option value=2>Level_2</option>
+                <option value=3>Level_3</option>
+                <option value=4>Level_4</option>
+            </select><br><br>
+    
+        <label for="status">Status</label>
+        <select name="status">
+            <option value="none" selected>status</option>
+            <option value="active">active</option>
+            <option value="inactive">inactive</option>
+        </select><br><br>
+    
+        <label for="department">department</label>
+        <select name="department">
+            <option value="none" selected>department</option>
+            <option >CS</option>
+            <option >IS</option>
+            <option >IT</option>
+            <option >AI</option>
+            <option >DS</option>
+        </select><br><br>
+    
+        Email:<input type="email" placeholder="Enter your Email">
+        <button onclick="confirmation()">delete</button><br><br>
+      
+    
+        phone number:<input type="number" placeholder="Enter a valid number">
+        <button onclick="confirmation()">delete</button><br><br>
+        
+        <div>
+            <input type="submit" value="Save">
+        </div>
+        <br>
+        <div>
+            <input type="reset" value="reset">
+    </form>
+  
+ </body>
+ <script src="../JS/update  and delete script.js"></script>
+
+</html>

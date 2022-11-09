@@ -1,0 +1,106 @@
+/*Main Data Table */
+.table{
+	text-align: center;
+	margin-top: 10px;
+	}
+	#table{
+	margin: 5px auto;
+	}
+	table tr:not(:first-child){
+	cursor: pointer;
+	transition: all .25s ease-in-out;
+	}
+	table tr:not(:first-child):hover{
+	background-color:#0b5726;
+	}
+	
+	table{
+	  width: 60%;
+	  border-collapse: collapse;
+	  text-align: center;
+	}
+	
+	tr:nth-child(odd){
+	  background-color:#ffffff;
+	}
+	
+	/*Data Update Button */
+	.updateButton{
+	text-align: center;
+	  
+	}
+	.updatebutton button{
+		background-color:#0b5726;
+		padding: 5px 10px;
+		border: 1px solid black;
+		color: rgb(255, 255, 255);
+		margin: 10px 0;
+		border-radius: 5px;
+		}
+		.updateButton button:hover{
+		background:white;
+		color:#873e23;
+		transition: .5s;
+		}
+	
+	/*Data Update Table*/
+	.editTable{
+	display: none;
+	padding-top: 20px;
+	width: 25%;
+	height: 25%;
+	margin: 0 auto;
+	}
+	.left{
+	float: left;
+	}
+	.editRowBtn{
+	background-color:#0b5726;
+	color: rgb(255, 255, 255);
+	border: 1px solid rgb(0, 0, 0);
+	padding: 5px 10px;
+	border-radius: 5px;
+	}
+	.editRowBtn:hover{
+	background-color:white;
+	color:#873e23;
+	transition: .5s;
+	}
+	.hi{
+	  background-image: url(../IMG/green\ neutrals\ desktop.jfif);
+	  height: 100%;
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	padding-top: 3%;
+	margin-top: auto;
+	word-spacing: normal;
+	text-align: center;
+	}
+	.header img {
+		float: left;
+		width: 100px;
+		height: 100px;
+		background: rgb(255, 255, 255);
+	  }
+	.title{
+	
+	  text-align: center;
+	  color:#ffffff;
+	
+	}
+	a:link,a:visited {
+		background-color:#0b5726;
+		color:white;
+		border:2px solid #0b5726;
+		padding:10px 20px;
+		text-align:center;
+		text-decoration:none;
+		display:inline-block;
+		}
+		
+		a:hover, a:active {
+		  background-color:white;
+		  color:#0b5726;
+		}
+		a:focus {color:#0b5726}

@@ -1,0 +1,38 @@
+.out {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px;
+    margin: auto;
+    width: fit-content;
+}
+
+.in {
+    width: fit-content;
+    display: block;
+    text-align: center;
+    background-color: darkturquoise;
+    padding: 10px;
+    margin: 10px;
+    font-size: medium;
+    border-width: 5px;
+    border-color: darkslategray;
+    border-radius: 10px;
+    border-style: solid;
+}
+    
+ul.Pages {
+    padding: 8px 16px;
+    list-style: none;
+    background-color: rgba(18, 157, 167, 0.24);
+  }
+  
+  ul.Pages li {display: inline;}
+  
+  ul.Pages li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+  }
+  
+  ul.Pages li a {color: rgb(5, 111, 138);}  
+  
